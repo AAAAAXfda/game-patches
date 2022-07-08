@@ -1,6 +1,6 @@
 title_name = "Red Dead Redemption" # GOTY/Game Of The Year, Disc 2
 title_id = "5454082B" # TT-2091
-hash = "EAE1A29200C7C15C" # default.xex
+hash = "" # default.xex
 #media_id = "26302E11" # Disc (USA, Europe): http://redump.org/disc/58711
 
 [[patch]]
@@ -38,7 +38,7 @@ hash = "EAE1A29200C7C15C" # default.xex
     name = "360p Mode"
     desc = "Internally renders the game at 360p and upscales to 720p. Certain objects and terrain will exhibit irregular pop-in."
     author = "boma"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]]
         address = 0x8277035c
@@ -97,7 +97,7 @@ hash = "EAE1A29200C7C15C" # default.xex
 [[patch]]
     name = "Disable Shadows"
     author = "boma"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]]
         address = 0x82927830
@@ -129,7 +129,7 @@ hash = "EAE1A29200C7C15C" # default.xex
     name = "Alternative Script Timing & Asset Garbage Collection"
     desc = "May provide a small performance boost for CPU-limited systems."
     author = "boma"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be32]]
         address = 0x82300bd0
